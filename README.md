@@ -1,4 +1,3 @@
-%# deepmil_uterine
 #Deep-Attention Multiple Instance learning for classification and progonostication of Uterus cancer
 
 This repository contains the source code of Deep-Attention Multiple Instance Learning (Deep-Attention MIL)
