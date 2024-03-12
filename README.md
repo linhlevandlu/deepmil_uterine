@@ -14,8 +14,10 @@ The proposed system in this study was stayed at the third phase of the <a href =
 
 ## The source code:
 1. Classification task: GSMT_src_classification folder.
-	a. main_cv.py: The main file to run the cross-validation test
-	b. model_pl.py: The model
-	c. bergonie_dataloader_survival_wsi.py: The file to load and create the Dataset, Dataloader
-	
+	<ul>
+		<li><i>main_cv.py</i>: The main file to run the cross-validation test</li>
+		<li><i>model_pl.py</i>: The model</li>
+		<li><i>bergonie_dataloader_survival_wsi.py</i>: The file to load and create the Dataset, Dataloader</li>
+	</ul>
+
 2. Prognostication task: GSMT_src_survival folder.
