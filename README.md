@@ -1,7 +1,7 @@
-# Deep-Attention Multiple Instance learning for classification and progonostication of Uterus cancer
+# Deep learning for classification and prognostication of Gynaecologic Smooth Muscle Tumors 
 
-This repository contains the source code of Deep-Attention Multiple Instance Learning (Deep-Attention MIL)
-for classification and prognostication of Gynaecologic Smooth Muscle Tumors (Uterus cancer)
+This repository contains the source code of Deep-Attention Multiple Instance Learning (Deep-Attention MIL) models
+for classification and prognostication of Gynaecologic Smooth Muscle Tumors (Uterus cancer).
 
 ## Overview of the framework to work with Whole Slide Images (WSIs) and proposed system
 To work with WSIs, a framework consisting of three phases has been used: (1) getting tiles (patches) from the WSIs of patients; (2) extracting the features from the extracted tiles by using an encoder, i.e., pre-trained <a href="https://arxiv.org/abs/1512.03385" target="blank">ResNet50</a>; (3) deep learning model to perform the goals of the study. 
