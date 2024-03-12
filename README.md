@@ -25,7 +25,7 @@ The proposed system in this study was stayed at the third phase of the <a href =
 		<li><i>main_cv.py</i>: The main file to run the cross-validation test for classification task</li>
 		<li><i>model_pl.py</i>: The classification model</li>
 		<li><i>bergonie_dataloader_survival_wsi.py</i>: The file to load and create the Dataset, Dataloader</li>
-		<li><i>inference_CV.py</i>: The inference process for cross-validation</li>
+		<li><i>inference_CV.py</i>: The inference process for classification cross-validation models</li>
 	</ul>
 
 2. Prognostication task: GSMT_src_survival folder.
@@ -33,5 +33,5 @@ The proposed system in this study was stayed at the third phase of the <a href =
 		<li><i>main_clinical_cv.py</i>: The main file to run the cross-validation test for prognostication task</li>
 		<li><i>model_pl.py</i>: The prognostication model</li>
 		<li><i>bergonie_dataloader_survival_wsi_clinical.py</i>: The file to load and create the Dataset, Dataloader</li>
-		<li><i>inference_clinical_CV.py</i>: The inference process for cross-validation</li>
+		<li><i>inference_clinical_CV.py</i>: The inference process for prognostication cross-validation models</li>
 	</ul>
