@@ -13,11 +13,11 @@ The proposed system in this study was stayed at the third phase of the <a href =
 ![overview](docs/model.png)
 
 ## Installation:
-	<ul>
-		<li>CentOS Linux 7 (Linux 3.10.0-957.el7.x86_64)</li>
-		<li>NVIDIA GPU (Quadro RTX 8000)</li>
-		<li>Python (3.9.5), numpy (1.21.2), torch (2.2.1+cu121), torchvision (0.12.0), pytorch-lightning (1.5.9)</li>
-	</ul>
+<ul>
+	<li>CentOS Linux 7 (Linux 3.10.0-957.el7.x86_64)</li>
+	<li>NVIDIA GPU (Quadro RTX 8000)</li>
+	<li>Python (3.9.5), numpy (1.21.2), torch (2.2.1+cu121), torchvision (0.12.0), pytorch-lightning (1.5.9)</li>
+</ul>
 ## The source code:
 1. Classification task: GSMT_src_classification folder.
 	<ul>
