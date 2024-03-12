@@ -12,12 +12,25 @@ The proposed system in this study was stayed at the third phase of the <a href =
 
 ![overview](docs/model.png)
 
+## Installation:
+	<ul>
+		<li>CentOS Linux 7 (Linux 3.10.0-957.el7.x86_64)</li>
+		<li>NVIDIA GPU (Quadro RTX 8000)</li>
+		<li>Python (3.9.5), numpy (1.21.2), torch (2.2.1+cu121), torchvision (0.12.0), pytorch-lightning (1.5.9)</li>
+	</ul>
 ## The source code:
 1. Classification task: GSMT_src_classification folder.
 	<ul>
-		<li><i>main_cv.py</i>: The main file to run the cross-validation test</li>
-		<li><i>model_pl.py</i>: The model</li>
+		<li><i>main_cv.py</i>: The main file to run the cross-validation test for classification task</li>
+		<li><i>model_pl.py</i>: The classification model</li>
 		<li><i>bergonie_dataloader_survival_wsi.py</i>: The file to load and create the Dataset, Dataloader</li>
+		<li><i>inference_CV.py</i>: The inference process for cross-validation</li>
 	</ul>
 
 2. Prognostication task: GSMT_src_survival folder.
+	<ul>
+		<li><i>main_clinical_cv.py</i>: The main file to run the cross-validation test for prognostication task</li>
+		<li><i>model_pl.py</i>: The prognostication model</li>
+		<li><i>bergonie_dataloader_survival_wsi_clinical.py</i>: The file to load and create the Dataset, Dataloader</li>
+		<li><i>inference_clinical_CV.py</i>: The inference process for cross-validation</li>
+	</ul>
